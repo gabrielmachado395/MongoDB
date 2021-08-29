@@ -1,0 +1,7 @@
+use ('TEST')
+//UpdateOne
+db.filmes.updateOne({titulo: "Hereditário"},
+{
+  $set: {ano: 2020}
+}
+)
